@@ -1,0 +1,20 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+<h1>پاسخ به مکالمه {{ conversation.telegram_chat_id }}</h1>
+
+<div style="margin-bottom: 20px;">
+  <h3>تاریخچه پیام‌ها</h3>
+  <ul>
+  {% for msg in conversation.messages.all %}
+    <li><b>{{ msg.sender }}:</b> {{ msg.text }}</li>
+  {% endfor %}
+  </ul>
+</div>
+
+<form method="post">
+  {% csrf_token %}
+  <textarea name="reply_text" rows="4" cols="60" placeholder="پاسخ خود را بنویسید..."></textarea><br>
+  <button type="submit">ارسال پاسخ</button>
+</form>
+{% endblock %}
