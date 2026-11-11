@@ -12,6 +12,11 @@
 
 > **وضعیت:** نسخه MVP. ساخته‌شده با Django، DRF و PostgreSQL.
 
+### نمای محیط ربات (Demo)
+<p align="center">
+  <img src="assets/telegram-bot-demo.png" alt="Telegram Bot Demo" width="600"/>
+</p>
+
 ## قابلیت‌ها
 
 * **اتصال به تلگرام** از طریق Webhook، همراه با جلوگیری از پردازش تکراری پیام‌ها و یک کد مخفی در آدرس Webhook.
@@ -261,6 +266,11 @@ python manage.py test
 An AI-powered customer support assistant for online stores operating via Telegram Bot. The agent understands customer messages and dynamically decides the best action: querying a knowledge base, invoking business tools, asking clarifying questions, or transferring the conversation to a human operator. Responses are delivered directly back to the Telegram chat.
 
 > **Status:** MVP Version. Built with Django, Django REST Framework (DRF), and PostgreSQL.
+
+### Demo
+<p align="center">
+  <img src="assets/telegram-bot-demo.png" alt="Telegram Bot Demo" width="600"/>
+</p>
 
 ## Features
 
