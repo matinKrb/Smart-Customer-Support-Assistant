@@ -1,3 +1,6 @@
+# Smart-Customer-Support-Assistant
+An agent that makes handling and responding to customers easier for you.
+<<<<<<< HEAD
 <div dir="rtl">
 
 [English](README.md) | **فارسی**
@@ -236,3 +239,7 @@ python manage.py test
   تا بتوان کانال دیگری را بدون بازنویسی ایجنت اضافه کرد.
 
 </div>
+=======
+# Smart-Customer-Support-Assistant
+An agent that makes handling and responding to customers easier for you.
+>>>>>>> aca21da20ca12dcf13d73b80f1f6de48f7ad5f7d
